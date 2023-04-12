@@ -1,0 +1,6 @@
+<h2>AppComponent</h2>
+<p>Data received from ChildComponent: {{ dataFromChild }}</p>
+<app-child
+  [dataFromParent]="dataToChild"
+  (send)="dataFromChild = $event"
+></app-child>
