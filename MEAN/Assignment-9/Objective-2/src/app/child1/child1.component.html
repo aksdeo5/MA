@@ -1,0 +1,11 @@
+<div class="component-border-padding-margin">
+  <h2>Child1 Component</h2>
+  <p>
+    The number <em> {{ inputNumber }} </em>
+    <strong *ngIf="numberService.ChkPrime(inputNumber); else elseBlock">
+      is a prime
+    </strong>
+    <ng-template #elseBlock> <strong> is not a prime </strong> </ng-template>
+    number.
+  </p>
+</div>
