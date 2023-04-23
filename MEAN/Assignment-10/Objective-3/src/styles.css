@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+.component-border-padding {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .component-border-padding-margin {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
